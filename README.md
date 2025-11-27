@@ -1,4 +1,4 @@
-# Movie API — FastAPI + PostgreSQL + SQLAlchemy
+# Movies API — FastAPI + PostgreSQL + SQLAlchemy
 
 A REST API built with **FastAPI** to provide movie categories and related movies. The database is hosted on **PostgreSQL (Render)**, and the API is intended to be consumed by a **React Native mobile application**.
 
@@ -127,7 +127,7 @@ uvicorn app.main:app --reload
 
 ---
 
-## Testing with Postman
+## Local Testing
 
 Base URL:
 
