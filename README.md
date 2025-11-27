@@ -57,6 +57,9 @@ app/
 * year
 * image
 * description
+* director
+* imdb_score
+* rating
 * category_id (foreign key)
 
 ---
@@ -66,8 +69,8 @@ app/
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/your-user/your-repo.git
-cd your-repo
+git clone https://github.com/SamuelSanchez03/MoviesAPI.git
+cd MoviesAPI
 ```
 
 ### 2. Create virtual environment

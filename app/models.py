@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, Text, ForeignKey
+from sqlalchemy import Column, Integer, Text, Numeric ,ForeignKey
 from sqlalchemy.orm import relationship
 from .database import database
 
@@ -20,6 +20,9 @@ class Movie(database.Base):
     year = Column(Integer)
     image = Column(Text)
     description = Column(Text)
+    director = Column(Text)
+    imdb_score = Column(Numeric(3, 1))
+    rating = Column(Text)
 
     category_id = Column(Integer, ForeignKey("categories.id"))
     category = relationship("Category", back_populates="movies")

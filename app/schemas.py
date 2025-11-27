@@ -15,6 +15,9 @@ class MovieBase(BaseModel):
     year: int
     image: str
     description: str
+    director: str
+    imdb_score: float
+    rating: str
     category_id: int
     
 class Movie(MovieBase):
